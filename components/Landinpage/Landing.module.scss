@@ -1,0 +1,63 @@
+@import "/styles/variables.scss";
+.container {
+  // display: flex;
+//   height: 100vh;
+margin-left: 2rem;
+
+  .wrapper {
+    margin: 0 0 0 1rem;
+  }
+  h1 {
+    margin-top: 1rem;
+    text-align: left;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    span {
+        color: #6552FE;
+    }
+  }
+
+  .imagewrapper {
+    position: relative;
+    margin-top: -2rem;
+    right: -1rem;
+    width: 366.5px;
+    height: 366.5px;
+  }
+
+  h3 {
+    color: white;
+    font-size: 35px;
+    width: 100%;
+    max-width: 18rem;
+    margin-top: -2rem;
+  }
+
+  p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100%;
+    max-width: 15rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #6552FE;
+    border-radius: 16px;
+    font-size: 16px;
+    width: 90%;
+    max-width: 300px;
+    height: 3rem;
+    justify-content: center;
+    // margin-bottom: 1rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+}

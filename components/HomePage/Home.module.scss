@@ -1,0 +1,148 @@
+    .container {
+        background: url(/images/homebg.png) no-repeat 0rem 3rem;
+        background-size: 100% ;
+
+        display: block;
+        align-items: center;
+    // text-align: center;
+    h1 {
+        color: white;
+        margin: 2rem 0 0 1.3rem;
+    }
+
+    .profile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2rem 1rem 0 1rem;
+        width: 100%;
+        max-width: 23rem;
+
+    }
+    .imagewrapper {
+        position: relative;
+        height: 3rem;
+        width: 3rem;
+    }
+    .size {
+        height: 2rem;
+        width: 2rem;
+    } 
+
+    .balance {
+        color: black;
+        background: url(/images/balancebg.png) no-repeat;
+        height:100px;
+        width: 90%;
+        max-width: 20rem;
+        border-radius: 16px;
+        margin: 0 auto;
+        margin-top: 1rem;
+        padding: 1rem 2rem 1rem 2rem;
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .textwrap {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 13rem;
+
+            .percent {
+                margin-top: 0.7rem;
+                display: flex;
+                .arrow {
+                    position: relative;
+                    height: 1.2rem;
+                    width: 1.2rem;
+                }
+
+            }
+         h1 {
+            margin-top: .5rem;
+            margin-left: -0.3rem;
+            color: black;
+          }
+          span {
+            color: #6552FE;
+
+          }
+        }
+    }
+
+    .btns {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        width: 100%;
+        max-width: 20rem;
+        color: white;
+      .btn1 {
+        display: flex;
+        justify-content: center;
+        width: 154px;
+        height: 38px;
+        align-items: center;
+        // padding: 10px 24px;
+        background: #6552FE;
+        border-radius: 16px;
+      }
+
+      .btn2 {
+        background: black;
+        border: 2px solid white;
+        margin-left: 1rem;
+        margin-right: 2rem;
+      }
+    }
+
+    .Holdings {
+        // margin-top: 8rem;
+        margin: 8rem 1rem 0 1rem;
+        .htitle {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+            h1 {
+                margin: unset;
+            }
+            span {
+                margin-right: 1rem;
+                text-decoration: dashed;
+            }
+        }
+
+        .items {
+            // width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            .iconwrapper {
+                position: relative;
+                height: 4rem;
+                width: 4rem;
+            }
+
+            .graph {
+                position: relative;
+                height: 4rem;
+                width: 4rem;
+            }
+
+            h4 {
+                color: white;
+            }
+            span {
+                color: #6C757D;
+            }
+        }
+
+        
+    }
+
+    
+}
